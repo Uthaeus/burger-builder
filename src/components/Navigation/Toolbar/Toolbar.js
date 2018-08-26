@@ -7,7 +7,7 @@ import NavigationItems from '../NavigationItems/NavigationItems';
 
 const toolbar = (props) => (
   <header className={classes.Toolbar}>
-    <div>Menu</div>
+    <div onClick={props.clicked}>Menu</div>
     <div className={classes.Logo}>
       <Logo />
     </div>
